@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f2f2f2;
+    margin: 20px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    background: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    width: 220px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.card p {
+    color: #555;
+}
